@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #555;
+}
+.container{
+    background-color:white;
+    width:950px;
+    height:650px;
+    margin: auto;
+    font-family: "Raleway", sans-serif;
+}
+
+.container .controls{
+    height:100px;
+    display:flex;
+    align-items:center;
+    background: #ddd;
+    padding:0px 50px;
+}
+
+.container .controls .title{
+    font-weight: 600;
+    color: #222;
+    width: 80px;
+}
+
+h3{
+    padding-right: 70px;
+    font-size: 180%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container .controls .color{
+    margin: 0 10px 0 0;
+}
+
+.container .controls .actions{
+    flex:1;
+    text-align:right;
+}
+
+.container .controls .actions button{
+    padding:3px 6px;
+}
+
+#canvas{
+    position: relative;
+    display: block;
+    width: auto;
+    height: 550px;
+}
+
+img{
+    display: none;
+    position: absolute;
+}
