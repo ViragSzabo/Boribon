@@ -1,3 +1,3 @@
 # Boribon
 ## Javascript final assignment
-Created by Virag Szabo (2021)
+Created by Virag Szabo (2022)
